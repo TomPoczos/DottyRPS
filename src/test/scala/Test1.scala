@@ -13,15 +13,15 @@ class Test1 {
     val player2 = Player(player2Name, () => shape2)
     assertEquals(expectedResult, evaluateRound(player1, player2))
 
-  @Test def rockTiesWithRock        = playRoundTest(Rock,     Rock,     Tie)
+  @Test def rockTiesWithRock        = playRoundTest(Rock,     Rock,     Tie(Rock))
   @Test def rockLoosesToPaper       = playRoundTest(Rock,     Paper,    Win("p2", Paper,    Rock))
   @Test def rockBeatsScissors       = playRoundTest(Rock,     Scissors, Win("p1", Rock,     Scissors))
   @Test def paperBeatsRock          = playRoundTest(Paper,    Rock,     Win("p1", Paper,    Rock))
-  @Test def paperTiesWithPaper      = playRoundTest(Paper,    Paper,    Tie)
+  @Test def paperTiesWithPaper      = playRoundTest(Paper,    Paper,    Tie(Paper))
   @Test def paperLoosesToScissors   = playRoundTest(Paper,    Scissors, Win("p2", Scissors, Paper))
   @Test def scissorsLooseToRock     = playRoundTest(Scissors, Rock,     Win("p2", Rock,     Scissors))
   @Test def scissorsWinToPaper      = playRoundTest(Scissors, Paper,    Win("p1", Scissors, Paper))
-  @Test def scissorsTieWithScissors = playRoundTest(Scissors, Scissors, Tie)
+  @Test def scissorsTieWithScissors = playRoundTest(Scissors, Scissors, Tie(Scissors))
 
 
 

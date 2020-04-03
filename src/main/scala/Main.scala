@@ -14,7 +14,7 @@ case class Player(name: String, playMove: () => Shape)
 // it is included for extensibility
 
 enum RoundResult {
-  case Tie
+  case Tie(shape: Shape)
   case Win(winnerName: String, winningShape: Shape, loosingShape: Shape)
 }
 
@@ -22,20 +22,20 @@ import RoundResult._
 
 def evaluateRound(player1: Player, player2: Player): RoundResult =
   (player1.playMove(), player2.playMove()) match
-    case (Rock,     Rock)     => Tie
+    case (Rock,     Rock)     => Tie(Rock)
     case (Rock,     Paper)    => Win(player2.name, Paper,    Rock)
     case (Rock,     Scissors) => Win(player1.name, Rock,     Scissors)
     case (Paper,    Rock)     => Win(player1.name, Paper,    Rock)
-    case (Paper,    Paper)    => Tie
+    case (Paper,    Paper)    => Tie(Paper)
     case (Paper,    Scissors) => Win(player2.name, Scissors, Paper)
     case (Scissors, Rock)     => Win(player2.name, Rock,     Scissors)
     case (Scissors, Paper)    => Win(player1.name, Scissors, Paper)
-    case (Scissors, Scissors) => Tie
+    case (Scissors, Scissors) => Tie(Scissors)
 
 def toOutputString(result: RoundResult): String =
   result match
-    case Tie => 
-      "It's a tie"
+    case Tie(shape) => 
+      f"Both players showed ${shape}, it's a tie"
     case Win(winnerName, winningShape, loosingShape) => 
       f"${winningShape} beats ${loosingShape}, ${winnerName} wins!"
 
