@@ -10,8 +10,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/m.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Shape$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/Shape$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RoundResult$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/RoundResult$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	RoundResult.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/RoundResult.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RoundResult$Win$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/RoundResult$Win$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Shape.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/Shape.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$package.class[0m
@@ -20,6 +24,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/Player.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Shape$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/Shape$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RoundResult$Win.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/RoundResult$Win.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	RoundResult.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/RoundResult.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$package$.class[0m

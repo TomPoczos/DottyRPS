@@ -9,28 +9,35 @@ import Shape._
 
 case class Player(name: String, playMove: () => Shape)
 
-// loosing shape is not needed right now since it is deductible from the winning shape,
+// loosingShape is not needed right now since it is deductible from the winning shape,
 // however, this would not be the case if the new shapes would be introduced, so
 // it is included for extensibility
 
-case class RoundResult(winnerName: String, winningShape: Shape, loosingShape: Shape)
+enum RoundResult {
+  case Tie
+  case Win(winnerName: String, winningShape: Shape, loosingShape: Shape)
+}
 
-def evaluateRound(player1: Player, player2: Player): Option[RoundResult] =
+import RoundResult._
+
+def evaluateRound(player1: Player, player2: Player): RoundResult =
   (player1.playMove(), player2.playMove()) match
-    case (Rock,     Rock)     => None
-    case (Rock,     Paper)    => Some(RoundResult(player2.name, Paper,    Rock))
-    case (Rock,     Scissors) => Some(RoundResult(player1.name, Rock,     Scissors))
-    case (Paper,    Rock)     => Some(RoundResult(player1.name, Paper,    Rock))
-    case (Paper,    Paper)    => None
-    case (Paper,    Scissors) => Some(RoundResult(player2.name, Scissors, Paper))
-    case (Scissors, Rock)     => Some(RoundResult(player2.name, Rock,     Scissors))
-    case (Scissors, Paper)    => Some(RoundResult(player1.name, Scissors, Paper))
-    case (Scissors, Scissors) => None
+    case (Rock,     Rock)     => Tie
+    case (Rock,     Paper)    => Win(player2.name, Paper,    Rock)
+    case (Rock,     Scissors) => Win(player1.name, Rock,     Scissors)
+    case (Paper,    Rock)     => Win(player1.name, Paper,    Rock)
+    case (Paper,    Paper)    => Tie
+    case (Paper,    Scissors) => Win(player2.name, Scissors, Paper)
+    case (Scissors, Rock)     => Win(player2.name, Rock,     Scissors)
+    case (Scissors, Paper)    => Win(player1.name, Scissors, Paper)
+    case (Scissors, Scissors) => Tie
 
-def toOutputString(result: Option[RoundResult]): String =
+def toOutputString(result: RoundResult): String =
   result match
-    case None => "It's a tie"
-    case Some(res) => f"${res.winningShape} beats ${res.loosingShape}, ${res.winnerName} wins!"
+    case Tie => 
+      "It's a tie"
+    case Win(winnerName, winningShape, loosingShape) => 
+      f"${winningShape} beats ${loosingShape}, ${winnerName} wins!"
 
 def playRound(player1: Player, player2: Player): String =
   toOutputString(evaluateRound(player1, player2)) 

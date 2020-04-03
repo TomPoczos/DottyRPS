@@ -1,5 +1,37 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E040] Syntax Error: /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/src/test/scala/Test1.scala:23:2 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m23 |[0m  [35m@Test[0m [33mdef[0m [36mpaperBeatsRock[0m          = playRoundTest(Paper, Rock, Some(RoundResult([31m"p1"[0m, Paper, Rock))[0m
-[0m[[0m[31merror[0m] [0m[0m   |  [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |  ')' expected, but '@' found[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Unbound Identifier Error: /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/src/test/scala/Test1.scala:16:72 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m16 |[0m  [35m@Test[0m [33mdef[0m [36mrockTiesWithRock[0m        = playRoundTest(Rock,     Rock,     Tie)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                        [31m^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                          Not found: Tie[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Unbound Identifier Error: /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/src/test/scala/Test1.scala:17:72 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m17 |[0m  [35m@Test[0m [33mdef[0m [36mrockLoosesToPaper[0m       = playRoundTest(Rock,     Paper,    Win([31m"p2"[0m, Paper,    Rock))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                        [31m^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                          Not found: Win[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Unbound Identifier Error: /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/src/test/scala/Test1.scala:18:72 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m18 |[0m  [35m@Test[0m [33mdef[0m [36mrockBeatsScissors[0m       = playRoundTest(Rock,     Scissors, Win([31m"p1"[0m, Rock,     Scissors))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                        [31m^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                          Not found: Win[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Unbound Identifier Error: /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/src/test/scala/Test1.scala:19:72 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m19 |[0m  [35m@Test[0m [33mdef[0m [36mpaperBeatsRock[0m          = playRoundTest(Paper,    Rock,     Win([31m"p1"[0m, Paper,    Rock))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                        [31m^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                          Not found: Win[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Unbound Identifier Error: /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/src/test/scala/Test1.scala:20:72 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m20 |[0m  [35m@Test[0m [33mdef[0m [36mpaperTiesWithPaper[0m      = playRoundTest(Paper,    Paper,    Tie)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                        [31m^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                          Not found: Tie[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Unbound Identifier Error: /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/src/test/scala/Test1.scala:21:72 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m21 |[0m  [35m@Test[0m [33mdef[0m [36mpaperLoosesToScissors[0m   = playRoundTest(Paper,    Scissors, Win([31m"p2"[0m, Scissors, Paper))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                        [31m^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                          Not found: Win[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Unbound Identifier Error: /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/src/test/scala/Test1.scala:22:72 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m22 |[0m  [35m@Test[0m [33mdef[0m [36mscissorsLooseToRock[0m     = playRoundTest(Scissors, Rock,     Win([31m"p2"[0m, Rock,     Scissors))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                        [31m^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                          Not found: Win[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Unbound Identifier Error: /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/src/test/scala/Test1.scala:23:72 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m23 |[0m  [35m@Test[0m [33mdef[0m [36mscissorsWinToPaper[0m      = playRoundTest(Scissors, Paper,    Win([31m"p1"[0m, Scissors, Paper))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                        [31m^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                          Not found: Win[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Unbound Identifier Error: /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/src/test/scala/Test1.scala:24:72 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m24 |[0m  [35m@Test[0m [33mdef[0m [36mscissorsTieWithScissors[0m = playRoundTest(Scissors, Scissors, Tie)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                        [31m^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                          Not found: Tie[0m
+[0m[[0m[31merror[0m] [0m[0m9 errors found[0m

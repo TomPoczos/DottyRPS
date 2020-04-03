@@ -1,20 +1,20 @@
 [0m[[0m[0mdebug[0m] [0m[0m[34mTest run started[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mrockLoosesToPaper[0m started[0m
-[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mrockLoosesToPaper[0m finished, took 0.007 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mrockLoosesToPaper[0m finished, took 0.012 sec[0m
 [0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mrockTiesWithRock[0m started[0m
-[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mrockTiesWithRock[0m finished, took 0.0 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mrockTiesWithRock[0m finished, took 0.002 sec[0m
 [0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mpaperTiesWithPaper[0m started[0m
-[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mpaperTiesWithPaper[0m finished, took 0.001 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mpaperTiesWithPaper[0m finished, took 0.0 sec[0m
 [0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mpaperLoosesToScissors[0m started[0m
-[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mpaperLoosesToScissors[0m finished, took 0.0 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mpaperLoosesToScissors[0m finished, took 0.001 sec[0m
 [0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mrockBeatsScissors[0m started[0m
-[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mrockBeatsScissors[0m finished, took 0.001 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mrockBeatsScissors[0m finished, took 0.0 sec[0m
 [0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mpaperBeatsRock[0m started[0m
 [0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mpaperBeatsRock[0m finished, took 0.0 sec[0m
 [0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mscissorsTieWithScissors[0m started[0m
-[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mscissorsTieWithScissors[0m finished, took 0.001 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mscissorsTieWithScissors[0m finished, took 0.0 sec[0m
 [0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mscissorsWinToPaper[0m started[0m
-[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mscissorsWinToPaper[0m finished, took 0.0 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mscissorsWinToPaper[0m finished, took 0.004 sec[0m
 [0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mscissorsLooseToRock[0m started[0m
 [0m[[0m[0mdebug[0m] [0m[0mTest [33mTest1[0m.[36mscissorsLooseToRock[0m finished, took 0.0 sec[0m
-[0m[[0m[0mdebug[0m] [0m[0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 9 total, 0.033s[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 9 total, 0.032s[0m[0m

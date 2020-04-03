@@ -7,3 +7,13 @@ dotty-compiler/test
 sbt test
 test
 run
+compile
+test
+clean
+test
+compile
+test
+compile
+test
+rnu
+run
