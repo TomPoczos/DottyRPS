@@ -9,9 +9,9 @@ import Shape._
 
 case class Player(name: String, playMove: () => Shape)
 
-// loosingShape is not needed right now since it is deductible from the winning shape,
-// however, this would not be the case if the new shapes would be introduced, so
-// it is included for extensibility
+// loosingShape is not needed right now since it can be deduced by the player from 
+// the winning shape, however, this would not be the case if aditional shapes 
+// would be introduced, so it is included for extensibility
 
 enum RoundResult {
   case Tie(shape: Shape)
