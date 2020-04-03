@@ -13,11 +13,6 @@ class Test1 {
     val player2 = Player(player2Name, () => shape2)
     assertEquals(expectedResult, evaluateRound(player1, player2))
 
-  // VS Code complains about the Tie and Win cases used here, but sbt can compile it and run the tests,
-  // pre-release software :)
-  
-  // The previous commit uses a less expressive Option[RoundResult] structure that VS Code doesn't object to
-
   @Test def rockTiesWithRock        = playRoundTest(Rock,     Rock,     Tie)
   @Test def rockLoosesToPaper       = playRoundTest(Rock,     Paper,    Win("p2", Paper,    Rock))
   @Test def rockBeatsScissors       = playRoundTest(Rock,     Scissors, Win("p1", Rock,     Scissors))
