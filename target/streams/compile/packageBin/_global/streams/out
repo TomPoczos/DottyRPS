@@ -1,0 +1,33 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/dotty-simple_0.23-0.1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Player$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/Player$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/Main$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RoundResult$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/RoundResult$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	m.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/m.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Shape$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/Shape$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RoundResult.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/RoundResult.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Shape.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/Shape.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/Main$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Player.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/Player.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Shape$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/Shape$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RoundResult.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/RoundResult.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/Main$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	m.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/m.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Shape.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/Shape.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Player.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/target/scala-0.23/classes/Player.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

@@ -1,0 +1,9 @@
+compile
+run
+sbt test
+sbt test;
+sbt test
+dotty-compiler/test
+sbt test
+test
+run

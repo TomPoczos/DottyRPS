@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E040] Syntax Error: /home/tom/code/temp/rock-paper-scissors/rockpaperscissors/src/test/scala/Test1.scala:23:2 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m23 |[0m  [35m@Test[0m [33mdef[0m [36mpaperBeatsRock[0m          = playRoundTest(Paper, Rock, Some(RoundResult([31m"p1"[0m, Paper, Rock))[0m
+[0m[[0m[31merror[0m] [0m[0m   |  [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |  ')' expected, but '@' found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
