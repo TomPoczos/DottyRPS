@@ -1,4 +1,4 @@
-## sbt project compiled with Dotty
+## sbt project compiled with Dotty (aka. Scala 3)
 
 ### Usage
 
